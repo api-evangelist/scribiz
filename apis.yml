@@ -1,0 +1,31 @@
+aid: scribiz
+name: Scribiz
+description: 'Scribiz is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/scribiz/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-08'
+modified: '2026-11-08'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://scribiz.com
+- type: Documentation
+  url: https://scribiz.com/video-mcp
+x-submission-notes: Scribiz extracts both what was said (spoken transcript with timestamps and speaker
+  labels) and what was shown on screen (scene-deduped Video OCR for slides, code blocks, terminal commands,
+  and burned-in captions) from YouTube, TikTok, Instagram, and audio/video files. Export as SRT, VTT,
+  TXT, Markdo
+x-submission-probe: 2026-11-07 200 https://scribiz.com/ ctl=404
+x-submitted-by: hello@scribiz.com (submission, 2026-11-07)

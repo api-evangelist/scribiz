@@ -64,5 +64,141 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Scribiz is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://scribiz.com
+Scribiz provides AI‑powered transcription and summarization tools for video, audio, and social media content. Users can generate SRT, VTT, TXT, and Markdown transcripts from YouTube, TikTok, Instagram, podcasts, and uploaded files. The platform offers bulk processing, playlist handling, and advanced features like speaker diarization, timestamps, and searchable archives, catering to creators, marketers, and developers needing accurate, searchable captions and summaries.
+
+**Areas:** transcript · video · audio · subtitle · summarizer · OCR · API · Mac app
+
+## Scribiz on APIs.io
+
+Everything profiled for Scribiz is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scribiz/](https://apis.io/providers/scribiz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [Scribiz Account API](https://apis.io/apis/scribiz/scribiz-account-api/) — The Account API from Scribiz — 5 operation(s) for account.
+- [Scribiz Auth API](https://apis.io/apis/scribiz/scribiz-auth-api/) — The Auth API from Scribiz — 3 operation(s) for auth.
+- [Scribiz Billing API](https://apis.io/apis/scribiz/scribiz-billing-api/) — The Billing API from Scribiz — 5 operation(s) for billing.
+- [Scribiz Gemini proxy API](https://apis.io/apis/scribiz/scribiz-gemini-proxy-api/) — The Gemini proxy API from Scribiz — 1 operation(s) for gemini proxy.
+- [Scribiz Jobs API](https://apis.io/apis/scribiz/scribiz-jobs-api/) — The Jobs API from Scribiz — 5 operation(s) for jobs.
+- [Scribiz MCP API](https://apis.io/apis/scribiz/scribiz-mcp-api/) — The MCP API from Scribiz — 1 operation(s) for mcp.
+- [Scribiz Service API](https://apis.io/apis/scribiz/scribiz-service-api/) — The Service API from Scribiz — 3 operation(s) for service.
+- [Scribiz Uploads API](https://apis.io/apis/scribiz/scribiz-uploads-api/) — The Uploads API from Scribiz — 5 operation(s) for uploads.
+- [Scribiz YouTube captions API](https://apis.io/apis/scribiz/scribiz-youtube-captions-api/) — The YouTube captions API from Scribiz — 6 operation(s) for youtube captions.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Scribiz Agentic Access](https://apis.io/agentic-access/scribiz/scribiz-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [BillingOffer](https://apis.io/schemas/scribiz/scribiz-billing-offer/)
+- [CheckoutConfirmed](https://apis.io/schemas/scribiz/scribiz-checkout-confirmed/)
+- [Context](https://apis.io/schemas/scribiz/scribiz-context/)
+- [ContextRequest](https://apis.io/schemas/scribiz/scribiz-context-request/)
+- [Job](https://apis.io/schemas/scribiz/scribiz-job/)
+- [Status](https://apis.io/schemas/scribiz/scribiz-status/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Scribiz Context](https://apis.io/jsonld/scribiz/scribiz-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Scribiz API Rules](https://apis.io/rules/scribiz/scribiz-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Scribiz Authentication](https://apis.io/security/scribiz/scribiz-authentication/)
+- [Scribiz Domain Security](https://apis.io/security/scribiz/scribiz-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Scribiz Plans Pricing](https://apis.io/plans/scribiz/scribiz-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scribiz.com)
+- [Documentation](https://scribiz.com/video-mcp)
+- [Getting started](https://scribiz.com/docs/quickstart)
+- [API reference](https://scribiz.com/docs/api)
+- [Pricing](https://scribiz.com/pricing)
+- [Support](https://scribiz.com/contact)
+- [Changelog](https://scribiz.com/changelog)
+- [Blog](https://scribiz.com/blog)
+- [Terms of service](https://scribiz.com/terms)
+- [Privacy policy](https://scribiz.com/privacy)
+- [GitHub](https://github.com/Illyism)
+- [Status](https://scribiz.com/status)
+
+## API Evangelist rating
+
+**Kin Score 62.5** — strong · rubric 0.27.0 · scored 2026-11-08
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 68.3 |
+| Access clarity | 60.0 |
+
+**Agent readiness 67.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scribiz/](https://apis.io/providers/scribiz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Scribiz: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scribiz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
